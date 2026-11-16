@@ -1,0 +1,6 @@
+{
+  "name": "MediaFetch - All-in-One Video Downloader",
+  "description": "Fast, modern, and secure multi-platform video downloader supporting YouTube, Instagram, TikTok, Twitter/X, Vimeo, Reddit, Pinterest, and Dailymotion with quality options and instant previews.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

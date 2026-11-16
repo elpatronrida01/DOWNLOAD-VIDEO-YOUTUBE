@@ -1,0 +1,91 @@
+<svg viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Primary Background Gradient -->
+    <linearGradient id="mf-bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4338CA" />
+      <stop offset="45%" stop-color="#3B82F6" />
+      <stop offset="100%" stop-color="#06B6D4" />
+    </linearGradient>
+
+    <!-- Inner Sheen Gradient -->
+    <linearGradient id="mf-sheen" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.0" />
+    </linearGradient>
+
+    <!-- Arrow & Symbol Glow -->
+    <linearGradient id="mf-symbol-grad" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#E0F2FE" />
+    </linearGradient>
+
+    <!-- Subtle Drop Shadow -->
+    <filter id="mf-inner-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="1.5" flood-color="#0F172A" flood-opacity="0.3" />
+    </filter>
+  </defs>
+
+  <!-- Squircle App Container -->
+  <rect
+    x="1"
+    y="1"
+    width="42"
+    height="42"
+    rx="12"
+    fill="url(#mf-bg-grad)"
+  />
+
+  <!-- Glass Highlight Sheen -->
+  <rect
+    x="1.5"
+    y="1.5"
+    width="41"
+    height="21"
+    rx="10.5"
+    fill="url(#mf-sheen)"
+  />
+
+  <!-- Border Stroke -->
+  <rect
+    x="1"
+    y="1"
+    width="42"
+    height="42"
+    rx="12"
+    stroke="white"
+    stroke-opacity="0.2"
+    stroke-width="1.2"
+  />
+
+  <!-- MediaFetch Core Symbol -->
+  <g filter="url(#mf-inner-shadow)">
+    <!-- Media Base Tray / Receiving Arc -->
+    <path
+      d="M 12 30.5 C 12 31.88 13.12 33 14.5 33 L 29.5 33 C 30.88 33 32 31.88 32 30.5"
+      stroke="white"
+      stroke-width="2.8"
+      stroke-linecap="round"
+    />
+
+    <!-- Downward Arrow Stem -->
+    <path
+      d="M 22 10.5 L 22 25.5"
+      stroke="url(#mf-symbol-grad)"
+      stroke-width="3.2"
+      stroke-linecap="round"
+    />
+
+    <!-- Downward Arrow Head / Fast Chevron -->
+    <path
+      d="M 15.5 19.5 L 22 26 L 28.5 19.5"
+      stroke="url(#mf-symbol-grad)"
+      stroke-width="3.2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+
+    <!-- Play-Symbol Accent Dot / Stream Sparkle -->
+    <circle cx="31.5" cy="12.5" r="2.2" fill="#38BDF8" />
+    <circle cx="31.5" cy="12.5" r="1.2" fill="#FFFFFF" />
+  </g>
+</svg>
